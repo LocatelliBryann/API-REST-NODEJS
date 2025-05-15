@@ -1,19 +1,19 @@
-# 🧪 API RESTful - CRUD de Usuários (Node.js + SQLite + Sequelize)
+# API RESTful - CRUD de Usuários (Node.js + SQLite + Sequelize)
 
 Este é um projeto simples de uma API RESTful construída com **Node.js**, **Sequelize** e **SQLite**, voltada para fins educacionais e testes locais. A API permite operações básicas de CRUD (Create, Read, Update, Delete) com usuários.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- ✅ Criar usuários
-- ✅ Listar todos os usuários
-- ✅ Atualizar um usuário por ID
-- ✅ Remover um usuário por ID
+- Criar usuários
+- Listar todos os usuários
+- Atualizar um usuário por ID
+- Remover um usuário por ID
 
 ---
 git 
-## 📦 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
@@ -23,7 +23,7 @@ git
 
 ---
 
-## ⚙️ Instalação e uso
+## Instalação e uso
 
 ### 1. Clone o repositório ou baixe o ZIP
 
@@ -58,9 +58,9 @@ node server.js
 
 ---
 
-## 🧪 Endpoints da API
+## Endpoints da API
 
-### ➕ Criar usuário
+### Criar usuário
 
 ```http
 POST /users
@@ -73,13 +73,13 @@ Content-Type: application/json
 }
 ```
 
-### 🔍 Listar todos os usuários
+### Listar todos os usuários
 
 ```http
 GET /users
 ```
 
-### ✏️ Atualizar usuário por ID
+### Atualizar usuário por ID
 
 ```http
 PUT /users/:id
@@ -91,7 +91,7 @@ Content-Type: application/json
 }
 ```
 
-### ❌ Deletar usuário por ID
+### Deletar usuário por ID
 
 ```http
 DELETE /users/:id
@@ -99,7 +99,7 @@ DELETE /users/:id
 
 ---
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 user-api-sqlite/
@@ -117,7 +117,7 @@ user-api-sqlite/
 
 ---
 
-## 🛑 .gitignore
+## .gitignore
 
 O projeto ignora arquivos sensíveis e de ambiente:
 
@@ -129,6 +129,6 @@ database.sqlite
 
 ---
 
-## 📝 Licença
+## Licença
 
 Este projeto é livre para fins acadêmicos e educacionais.
