@@ -5,6 +5,7 @@ const userRoutes = require('./routes/userRoutes');
 const helmet = require('helmet');
 const csrf = require('csurf');
 const cookieParser = require('cookie-parser');
+const { body, validationResult } = require('express-validator');
 
 dotenv.config();
 
@@ -28,7 +29,7 @@ app.use((req, res, next) => {
 app.use('/users', userRoutes);
 
 // Inicialização
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3306;
 
 sequelize.sync({ force: false })
   .then(() => {
